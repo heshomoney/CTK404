@@ -1,0 +1,53 @@
+/This is a stylesheet for BasicCSS
+selector {
+    property: value;
+    property: value;
+
+}
+
+h1 {
+  color: coral;
+  background-color: #ffffff;
+}
+h3 {
+    color: #ff0000;
+}
+  
+  p {
+    color: #000000;
+    background-color:  #ffffff; 
+  }
+h4 {
+    color: darkgoldenrod;
+}
+
+  .bluetext {
+    color: #0000ff;
+    background-color: #ffffff;
+  }
+
+  #greentext {
+    color: rgb(5, 122, 50);
+    background-color: #000000;
+  }
+
+
+#goldtext {
+  color: goldenrod;
+  background-color: #ffffff;
+}
+
+a:link {
+    color: red;
+    text-decoration: none;
+  }
+
+  a:visited{
+    color:#AAAAAA;
+  }
+
+  a:hover{
+    color: green;
+    text-decoration: underline;
+  }
+
