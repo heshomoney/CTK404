@@ -1,0 +1,41 @@
+/*This is a stylesheet for Assignment 3*/
+selector {
+    property: value;
+    property: value;
+  }
+  
+  h1 {
+    color: #ff0000;
+    background-color: rgb(234, 247, 234); 
+  }
+  
+
+  .specialp {
+    color: #0000ff;
+    background-color: #ffffff;
+  }
+
+
+  #divexample{
+    background-color: #e8e8f5;
+  }
+  
+  .spanstyle{
+      color: red;
+  }
+  
+  /* CSS for the link pages     */   
+  a {
+    color: red;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: darkgreen;
+  }
+  
+  a:hover {
+    color: yellow;
+    text-decoration: underline;
+  
+  }
