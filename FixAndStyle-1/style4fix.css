@@ -1,0 +1,57 @@
+/*This is a stylesheet for FixAndStyle*/
+
+selector {
+    property: value;
+    property: value;
+  }
+  
+h1 {
+    color: white;
+}
+        a {
+            color: rgb(4, 78, 30);
+            text-decoration: none;
+        }
+        a:hover {
+            color: red;
+            text-decoration: underline;
+        }
+#divexample{
+    background-color: rgb(155, 203, 242);
+  }
+  
+h2 {
+    color: blue;
+}
+.spanstyle{
+    color: goldenrod;
+}
+h3 {
+    Color: rgb(0, 0, 0);
+    background-color: yellow;
+}
+h4 {
+    color: yellow;
+    background-color: darkgreen;
+}
+.greenbackground {
+    background-color: greenyellow;
+        }
+.redtext {
+    color: #ff0000;
+  }
+.yellowbackground {
+    background-color: yellow;
+}
+
+#divYellow{
+    background-color: yellow;
+}
+
+h5 {
+    color: red;
+}
+
+.spanstyle2{
+    color: blue;
+}
