@@ -1,0 +1,70 @@
+/*This is a stylesheet for Assignment 3*/
+selector {
+    property: value;
+    property: value;
+  }
+  
+  h1 {
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    color: orange;
+  }
+
+  body   {
+    background-color: #eeeeee;
+    background-image: url(Breaking-Limits.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 2000px;
+    }
+
+  .img {
+    border: 20px solid black;
+    background-color: yellow;
+    padding: 10px;
+    width: 1500px;
+    }
+
+  h2 {
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    color: orange;
+  }
+
+  h3 {
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    color: orange;
+  }
+
+  .Customtext{
+    font: bold 20px sans-serif;
+    text-align: justify;
+    line-height: 32px;
+}
+
+  .text1 {
+      font-family: sans-serif;
+  }
+ 
+  .text2 {
+    font-family: sans-serif;
+    text-align: center;
+}
+  /* CSS for the link pages */   
+  a {
+    color: red;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: darkgreen;
+  }
+  
+  a:hover {
+    color: yellow;
+    text-decoration: underline;
+  }
