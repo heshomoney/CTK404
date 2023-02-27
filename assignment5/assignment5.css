@@ -1,4 +1,4 @@
-    h1 {
+        h1 {
         font-family: Helvetica;
         font-weight: lighter;
         margin: 0px;
@@ -37,6 +37,12 @@
         padding: 10px;
         /*background-image: linear-gradient(to right top, #0b3a80, #003384, #002a86, #002188, #0b1388);*/
       }
+
+      nav li a:visited {
+        color: white;
+        text-decoration: none;
+         /*background-image: linear-gradient(to top, #0b3a80, #003384, #002a86, #002188, #0b1388));*/
+      }
       
       nav li a:hover {
         color: yellow;
@@ -61,9 +67,11 @@
             a {
                 text-decoration: none;
                 font-weight: bold;}
+
             a:visited {
-            /*    color: blue;*/
+              color: rgb(39, 145, 245);
                 } 
+
             a:hover {
                 color: red;
                 text-decoration: underline;
