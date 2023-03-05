@@ -1,0 +1,114 @@
+
+#Boxing {
+    width: 800px;
+    border: 2px solid black;
+    margin: 1em auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat (4,1fr);
+    background-color: white;
+}
+
+h1 {
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+    margin: 20px;
+}
+
+h2 {
+    border-bottom: 3px solid black;
+}
+
+header {
+    grid-column: span 4;
+    background-color: black;
+    margin: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 5px;
+    padding: 0px;
+    }
+
+nav li a {
+    display: block;
+    background-color: red;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 1em;
+    color: white;
+    text-decoration: none;
+    }
+
+    nav li a:visited {
+        color: white;
+        background-color: red;
+        text-decoration: none;
+        }
+
+    nav li a:hover {
+        background-color: rgb(187, 6, 6);
+        text-decoration: none;
+        color: white;
+        }
+
+
+
+        a {
+        color: red;
+        font-weight: bold;
+        text-decoration: none;
+            }
+            
+        a:visited {
+            color: red;
+            font-weight: bold;
+            text-decoration: none;
+                }
+
+        a:hover {
+            color: blue;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+
+main {
+    grid-column: span 3;
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+
+  main img {
+    width: 350px;
+    float: left;
+    border: 3px solid black;
+    padding: 10px;
+    margin-right: 10px;
+    }
+
+    .special {
+        font-family: Georgia;
+        font-weight: bold;
+        text-align: justify;
+    }
+
+    body {
+        background-image: url(a62.png);
+        background-repeat: repeat;
+    }
+
+    .special2 {
+        font-family: Verdana;
+        font-style: italic;
+        color: white;
+        text-align: center;
+        margin: 30px;
+    }
+    footer {
+        background-color: red ;
+        border: 2px solid black;
+        grid-column: span 4;
+      }
+
+    
