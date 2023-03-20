@@ -1,0 +1,122 @@
+#wrapper{
+    width: 960px;
+    border: 3px solid blue;
+    background-color: white;
+    margin: 1em auto;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+}
+
+#whitebackground{
+    background-color: white;
+    grid-column: span 12;
+}
+
+main p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: justify;
+}
+
+header{
+    grid-column: span 12;
+    border-bottom: 3px solid black;
+    background-image: linear-gradient(to bottom, #2778f0, #245fc4, #1e489b, #143273, #091e4e);
+}
+
+h1 a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-weight: normal;
+    margin: 30px 15px;
+    color: white;
+}
+
+nav{
+    grid-column: span 12;
+    padding: 10px;
+   /* background-image: linear-gradient(to bottom, #2778f0, #245fc4, #1e489b, #143273, #091e4e) */
+   background-color: #091e4e;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;  
+    background-image: linear-gradient(to top, #2778f0, #245fc4, #1e489b, #143273, #091e4e) 
+}
+
+nav ul li{
+    display: inline-block;
+    width: 240px;
+    border-right: 3px solid #091e4e;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: white;
+    padding: 15px 35px;
+    margin: 0px;
+    display: block;
+}
+
+main{
+    padding: 15px;
+    grid-column: span 4;
+    background-color: rgb(193, 234, 247);
+}
+
+aside img {
+    float: left;
+    display: inline;
+    width: 350px;
+    margin-right: 10px;
+    border: 3px solid blue;
+}
+
+aside p{
+    font-family: Georgia;
+    font-weight: normal;
+}
+
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border-bottom: 3px solid blue;
+}
+
+aside h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border-bottom: 3px solid blue;
+    color: rgb(7, 2, 78);
+}
+
+aside p{
+    color: rgb(0, 0, 0);
+}
+
+.italicized{
+    font-style: italic;
+}
+
+aside{
+    padding: 15px;
+    margin: 5px;
+    grid-column: span 8;
+}
+
+aside a{
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer{
+    grid-column: span 12;
+    background-color: rgb(252, 0, 0);
+    border-top: 3px solid blue;
+    padding-left: 15px;
+    padding: 10px;
+}
