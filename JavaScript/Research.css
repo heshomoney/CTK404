@@ -1,0 +1,123 @@
+#wrapper{
+    width: 960px;
+    border: 3px solid blue;
+    background-color: white;
+    margin: 1em auto;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+}
+
+
+body {
+    background-image: url(based.jpg);
+}
+header {
+    background-color: white;
+    grid-column: span 12;
+}
+
+header img {
+    float: left;
+    display: inline;
+    width: 100px;
+    margin: 25px;
+}
+header p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: justify;
+}
+
+nav {
+    grid-column: span 4;
+    float: left;
+    display: inline;
+    padding: 0px;
+    margin: 20px;
+    }
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    }
+
+nav ul li {
+    display: block;
+    }
+
+nav li a {
+        display: block;
+        background-color:  rgb(16, 86, 190);
+        border: 1px solid rgb(1, 27, 70);
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        margin: 5px;
+        padding: 1em;
+        color: white;
+        text-decoration: none;
+        transition: background-color 1.0s, width 2.0s, color 2.0s;
+        }
+
+nav a:hover {
+                background-color: #00ff00;
+                color: black;
+              }    
+main {
+    grid-column: span 12;
+    background-color: white;
+    }
+main Img {
+        width: 960px;
+        float: right;
+        display: inline;
+        margin: 10px, 0px, 10px;
+    }
+
+section {
+    grid-column: span 12;
+    background-color:  rgb(16, 86, 190);
+}
+
+H2 {
+    color: white;
+    margin-left: 25px;
+}
+section p {
+    color: white;
+    text-align: justify;
+    padding: 15px;
+    margin: 5px;
+    grid-column: span 4;
+}
+
+footer {
+    grid-column: span 12;
+    background-color: aqua;
+}
+footer p {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+#fdiv {
+    text-align: center;
+  }
+  
+  
+  
+  #myCarousel .f-carousel__slide {
+    text-align: center;
+    padding: 24px;
+    background:  rgb(16, 88, 150);
+  }
+
+
+  #myCarousel img {
+    width: 800px;
+  }
+  
+  #myCarousel.f-carousel__slide{
+    align-items: center;
+    padding: 24px;
+    background-color: rgb(16, 88, 150);
+  }
