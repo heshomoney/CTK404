@@ -75,6 +75,7 @@ main {
 section {
     grid-column: span 12;
     background-color:  rgb(16, 86, 190);
+    width: 960px;
 }
 
 H2 {
