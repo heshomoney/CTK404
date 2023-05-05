@@ -16,25 +16,36 @@ header {
     grid-column: span 12;
 }
 
+header p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    grid-row: 6;
+    position: relative;
+      left: 500px;
+    z-index: 100000;}
+
 header img {
     float: left;
     display: inline;
     width: 100px;
     margin: 25px;
 }
-header p{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    text-align: justify;
+h2 {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin-left: 25px;
 }
+
 
 nav {
     grid-column: span 4;
-    float: left;
-    display: inline;
     padding: 0px;
     margin: 20px;
+    width: 200px;
+    position: absolute;
+    z-index: 10000;
     }
+
 nav ul {
     list-style-type: none;
     margin: 0px;
@@ -55,15 +66,20 @@ nav li a {
         padding: 1em;
         color: white;
         text-decoration: none;
+        transition: background-color 1.0s, width 2.0s, color 2.0s;
         }
 
+nav a:hover {
+                background-color: #00ff00;
+                color: black;
+              }    
 main {
     grid-column: span 12;
     background-color: white;
     }
 main Img {
         width: 960px;
-        float: right;
+        text-align: center;
         display: inline;
         margin: 10px, 0px, 10px;
     }
@@ -83,6 +99,8 @@ section p {
     padding: 15px;
     margin: 5px;
     grid-column: span 4;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
 }
 
 footer {
@@ -93,3 +111,32 @@ footer p {
     text-align: center;
     color: rgb(0, 0, 0);
 }
+
+#slide {
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+    padding: 24px;
+  }
+
+  #fdiv {
+    text-align: center;
+  }
+
+
+  #myCarousel .f-carousel__slide {
+    text-align: center;
+    padding: 10px,0px,0px;
+    background:  white;
+  }
+
+  #myCarousel img {
+    width: 940px;
+  }
+  
+  address{
+    display: block;
+    text-align: center;
+    margin: 3px;
+    padding: 1em;
+  }
