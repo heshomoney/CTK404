@@ -9,6 +9,7 @@
 
 body {
 background-image: url(based.jpg);
+background-repeat: no-repeat;    
 }
 header {
 background-color: white;
